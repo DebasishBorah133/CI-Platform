@@ -1,0 +1,253 @@
+/*html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}*/
+
+
+img {
+    /* width: 1200px; */
+    height: 930px;
+}
+
+.sideImg {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+/* .img-content
+{
+    width: 592px;
+    height: 109px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+} */
+
+.sideContent {
+    /* top: 319px;
+    left: 1431px; */
+    width: 200px;
+    height: 344px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
+    padding-left: 0px;
+}
+
+.login {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+    /* top: 319px;
+    left: 1431px;
+    width: 402px;
+    height: 344px;
+    /* UI Properties */
+    /* opacity: 1; */
+    padding-top: 125px;
+    margin-top: 125px;
+    /* padding-left: 20px; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; 
+    align-items: center; */
+}
+
+#user-name {
+    top: 349px;
+    left: 1432px;
+    width: 401px;
+    height: 56px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #2B64B11F;
+    border: 1px solid #2B64B1;
+    border-radius: 3px;
+    opacity: 1;
+    padding-left: 10px;
+}
+
+#password {
+    top: 458px;
+    left: 1432px;
+    width: 401px;
+    height: 56px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0.97px 0.26px 3px #0000000D;
+    border: 1px solid #D9D9D9;
+    border-radius: 3px;
+    opacity: 1;
+    padding-left: 10px;
+}
+
+.l1 {
+    top: 319px;
+    left: 1431px;
+    width: 102px;
+    height: 30px;
+    /* UI Properties */
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414141;
+    opacity: 1;
+    padding-bottom: 5px;
+}
+
+.l2 {
+    top: 428px;
+    left: 1431px;
+    width: 70px;
+    height: 30px;
+    /* UI Properties */
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414141;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+#user-name::placeholder {
+    top: 365px;
+    left: 1447px;
+    width: 189px;
+    height: 21px;
+    /* UI Properties */
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414141;
+    opacity: 1;
+}
+
+#bt {
+    top: 544px;
+    left: 1432px;
+    width: 401px;
+    height: 48px;
+    /* UI Properties */
+    background: #F8863400 0% 0% no-repeat padding-box;
+    border: 2px solid #F88634;
+    border-radius: 24px;
+    opacity: 1;
+    margin-bottom: 10px;
+}
+
+#lg {
+    top: 555px;
+    left: 1610px;
+    width: 45px;
+    height: 23px;
+    /* UI Properties */
+    text-align: left;
+    letter-spacing: 0px;
+    color: #F88634;
+    opacity: 1;
+}
+
+.forget-password {
+    position: absolute;
+    /*top: 609px;
+    left: 1568px;
+    width: 130px;
+    height: 19px;*/
+    /* UI Properties */
+    margin-left: 120px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #414141;
+    opacity: 1;
+    /*padding-left: 130px;*/
+    text-decoration: none;
+}
+
+.new-member {
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 19px;
+    /* UI Properties */
+    text-align: center;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #414141;
+    /* padding-left: 90px; */
+}
+
+.forget-pass {
+    /* padding-top: 100px; */
+    top: 609px;
+    left: 1568px;
+    width: 130px;
+    height: 19px;
+    /* UI Properties */
+    text-align: center;
+    letter-spacing: 0px;
+    color: #414141;
+    opacity: 1;
+}
+
+.carousel-caption {
+    text-align: left;
+    color: #ffffff;
+}
+
+    .carousel-caption h5 {
+        width: 30vw;
+    }
+
+    .carousel-caption:last-child {
+        text-align: left;
+        font-size: 16px;
+    }
+
+/* .carousel-slider{
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50% !important;
+  } */
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* @media (min-width:1200px) and (max-width:1760px)
+  {
+
+    img{
+        width: 1200px;
+        height: 930px;
+        
+    }
+    
+    .sideImg
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+
+
+    .login {
+        padding-top: 525px;
+        margin-top: 525px;
+  } */
