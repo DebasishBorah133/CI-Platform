@@ -1,11 +1,10 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿
 @{
+    ViewData["Title"] = "Registration";
 }
 
-    <div class="container-fluid row">
-        <div class="sideImg col">
+<div class="container-fluid row">
+        <div class="sideImg col-lg-9">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -25,19 +24,6 @@
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
                         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                       </p>
-                    </div>                    
-                  </div>
-                  <div class="carousel-item">
-                    <img src="~/Images/login-page.png" class="d-block " alt="login-page">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Sed ut perspiciatis unde omnis iste natus voluptatem.</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                      </p>
                     </div>
                   </div>
                   <div class="carousel-item">
@@ -50,7 +36,7 @@
                         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
                         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                      </p>
+                      </p>                    
                     </div>
                   </div>
                   <div class="carousel-item">
@@ -63,7 +49,20 @@
                         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
                         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                      </p>
+                      </p>                    
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="~/Images/login-page.png" class="d-block " alt="login-page">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Sed ut perspiciatis unde omnis iste natus voluptatem.</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      </p>                    
                     </div>
                   </div>
                 </div>
@@ -78,35 +77,58 @@
               </div>
         </div>
 
-        <div class="sideContent_forgetPass col">
+        <div class="sideContent_Register col-lg-3">
             
-            <div class="ForgetPass">
+            <div class="register">
                 <form action="#">
-                    <p class="p1">Forgot Password<p>
-                    <p class="p2">Enter your email address you've using for your account below and we will send you a password reset link</p>
-                    <label for="user-name" class="l1">Email Address</label>
+
+                    <label for="first-name" class="rl1">First Name</label>
                     <br>
-                    <input type="text" name="Username" id="user-name" placeholder="Enter your email address...">&nbsp;
+                    <input type="text" name="FirstName" id="firstName" placeholder="evan">&nbsp;
+                    
+
+                    <label for="last-name" class="rl2">Last Name</label>
+                    
+                    <input type="text" name="LastName" id="lastName" placeholder="donohue">&nbsp;
+                   
+
+                    <label for="phone-number" class="rl3">Phone Number</label>
                     <br>
+                    <input type="number" name="Username" id="phoneNumber" placeholder="892150480">&nbsp;
+                    
+                  
+                    <label for="user-name" class="rl4">Email Address</label>
+                    <br>
+                    <input type="text" name="Username" id="userName" placeholder="evan.donohue@gmail.com">&nbsp;
+                    
+    
+                    <label for="user-name" class="rl5">Password</label>
+                    <br>
+                    <input type="password" name="Password" id="pass" placeholder="**********">
+                    <br>
+                    <br>
+                    <label for="confirm-password" class="rl6">Comfirm Password</label>
+                    <br>
+                    <input type="password" name="Password" id="confirmPassword" placeholder="**********">
+                    <br>
+
                     <button class="btn btn-danger" id="bt">
-                        <a id="lg" asp-controller="Home" asp-action="ResetPassword">Reset my Password </a> 
+                        <span id="reg">Register</span> 
                     </button>
                     <br>
-                    <a  class="login-now" asp-controller="Home" asp-action="index">
-                        <span class="login-account">Login</span>
+                    <a class="forgetPassword" asp-controller="Home" asp-action="ForgetPassword">
+                        <span class="forgetPass">Lost your password?</span>
                     </a>
                     <br>
-                    <br>
-                    <br><br><br><br>
-                    <p class="Privacy">Privacy Policy</p>
+                    
+                    <p class="old-member">Already registered?  <a style="color: #2B64B1;" asp-controller="Home" asp-action="Index"> Login now</a></p>
+                    <br>&nbsp;
+                    <p class="privacy">Privacy Policy</p>
                 </form>
-            </div>
-
+            </div>           
         </div>
         <div>
 
         </div>
     </div>
-    
-    <script src="js/custom.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+
