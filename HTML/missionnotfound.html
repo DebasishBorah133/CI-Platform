@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoMissionFound</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="style_copy.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light border-bottom fontfamily">
+        <div class="container">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Stories</a>
+                    </li>
+
+                    <div class="dropdown d-flex flex-column justify-content-center">
+                        <button class="dropdown-toggle profile" type="button" data-bs-toggle="dropdown">
+                            <div class="policydesign nav-item">
+                                <span>Policy</span>
+                                <img src="images/drop-down.png" class="ic-down">
+                            </div>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">My Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Help</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </div>
+
+                </ul>
+
+                <div class="px-5 pb-2">   
+                    <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill applyLV px-3 py-1" style="font-size: medium;">
+                      Submit New Mission
+                    </button>
+                </div>
+
+                <ul class="navbar-nav">
+                    <form class="">
+                        <div class="dropdown d-flex flex-column justify-content-center">
+                            <button class="dropdown-toggle profile" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="true">
+                                <div class="profiledropdown">
+                                    <img src="images/user-img.png" width="40px" height="40px"
+                                        class="imgdesignheader">
+                                    <div class="profilebtndesign nav-item">
+                                        <span>Evan Donohue</span>
+                                        <img src="images/drop-down.png" class="ic-down">
+                                    </div>
+                                </div>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">My Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Volunteering Timesheet</a></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                        </div>
+
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <div class="border-bottom secondrow">
+        <div class="container">
+            <div class="row filter">
+                <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center marginleft1">
+  
+                    <div class="searchdesign">
+                        <a href="missionnotfound.html"><img src="images/search.png" width="22px" height="22px"></a>
+                        <input type="text" class="form-control searchcontrol" placeholder="Search mission...">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center marginleft justify-content-center">
+  
+                    <select class="form-select form-select-lg h-100 dropbtn firstdropbtn"
+                        aria-label=".form-select-lg example">
+                        <option class="dropbtn" selected>Country</option>
+                        <option value="1" class="dropbtn">One</option>
+                        <option value="2" class="dropbtn">Two</option>
+                        <option value="3" class="dropbtn">Three</option>
+                    </select>
+  
+                    <select class="form-select form-select-lg h-100 dropbtn" aria-label=".form-select-lg example">
+                        <option class="dropbtn" selected>City</option>
+                        <option value="1" class="dropbtn">One</option>
+                        <option value="2" class="dropbtn">Two</option>
+                        <option value="3" class="dropbtn">Three</option>
+                    </select>
+  
+                    <select class="form-select form-select-lg h-100 dropbtn" aria-label=".form-select-lg example">
+                        <option class="dropbtn" selected>Theme</option>
+                        <option value="1" class="dropbtn">One</option>
+                        <option value="2" class="dropbtn">Two</option>
+                        <option value="3" class="dropbtn">Three</option>
+                    </select>
+                    
+                    <select class="form-select form-select-lg h-100 dropbtn lastdropbtn"
+                        aria-label=".form-select-lg example">
+                        <option class="dropbtn" selected>Skills</option>
+                        <option class="dropbtn" value="1">One</option>
+                        <option class="dropbtn" value="2">Two</option>
+                        <option class="dropbtn" value="3">Three</option>
+                    </select>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  <main>
+    <div class="container pt-5 NoMissionFound">
+        <span class="submitNewMission">No Mission Found</span>
+        <div class="d-flex justify-content-start pt-4 ">   
+            <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill applyLV">
+              Submit New Mission
+              <img src="Images/right-arrow.png" alt="ApplyArrow" class="px-2">
+            </button>
+        </div>
+    </div>
+  </main>
+  
