@@ -994,6 +994,86 @@ nav {
     font-weight: 300;
 }
 
+.sideContent
+{
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.timeLineVolunteer
+{
+    border: 1px solid rgb(185, 180, 180);
+    border-radius: 50px;
+    padding: 0px 35px;
+    background-color: white;
+    position: absolute;
+    font-weight: lighter;
+    font-size: medium;
+    top:26%;
+    right: 40%;
+    /* bottom:274px;
+    right: 550px;   */
+    /* margin-left: 150px;
+    margin-top: -12px; */
+}
+
+.seatsDeadlineVolunteer
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+.AddToFav
+{
+    color:grey;
+    padding:8px 50px;
+    border:2px solid grey;
+    /* margin-bottom: 10px; */
+}
+
+.Recommend
+{
+    color:grey;
+    padding:8px 30px;
+    border:2px solid grey;
+    /* margin-bottom: 10px; */
+}
+
+.stars
+{
+    position: absolute;
+    bottom: 42.5%;
+    left: 35%;
+    background-color: white;
+}
+
+.box-text
+{
+    display: flex;
+    flex-direction: column;
+    align-content:end;
+    justify-content: end;
+}
+
+.VolunteerApply
+{
+    color:#F88634;
+    padding:13px 35px;
+    border:2px solid #F88634;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* only for try */
+.try
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 /* This is the courousel of volountering page which css is refred from website  */
 
@@ -1011,10 +1091,10 @@ nav {
       padding: 0;
     } */
 
-    .swiper {
+    /* .swiper {
       width: 100%;
       height: 100%;
-    }
+    } */
 
     .swiper-slide {
       text-align: center;
@@ -1055,14 +1135,14 @@ nav {
     }
 
     .mySwiper {
-      height: 20%;
+      height: 25%;
       box-sizing: border-box;
       padding: 10px 0;
     }
 
     .mySwiper .swiper-slide {
       width: 25%;
-      height: 100%;
+      height: 80%;
       opacity: 0.4;
     }
 
@@ -1070,11 +1150,49 @@ nav {
       opacity: 1;
     }
 
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    .swiper-button-next
+    {
+        color: white;
+        right: 1px;
+        left: auto;
+        height: 70%;
+        /* background-color: rgb(93, 91, 91); */
+        background-color: black;
+        opacity: 50%;
+        top: 32px;
     }
 
+    .swiper-button-prev
+    {
+        color: white;
+        position: absolute;
+        /* bottom: 3rem; */
+        /* background-color: rgb(93, 91, 91); */
+        background-color: black;
+        opacity: 50%;
+        left: -2px;
+        right: auto;
+        top: 32px;
+        height: 70%;
+        /* font-size: 10px; */
+    }
+
+
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+ /* this is the css for tab bar in the volunteering page */
+
+ .activeTab
+ {
+     border-bottom: 2px solid black;
+     color: black!important;
+     /* text-decoration: none; */
+ }
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+
+

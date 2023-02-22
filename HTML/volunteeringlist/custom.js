@@ -47,5 +47,16 @@ function mediaWidthCheck() {
 }
 
 
-// this is the jQuery/JS for the the courosuel design in the volounteering page
+// // this is the jQuery/JS for the the Tab bar design in the volounteering page
+// var tab1 = document.querySelector(".tab1");
+// var tab2 = document.querySelector(".tab2");
+// var tab3 = document.querySelector(".tab3");
 
+
+// tab1.addEventListener("click", ActiveTab);
+
+// function ActiveTab()
+// {
+//     tab1.classList.add('activeTab')
+//     console.log("Hello")
+// }
