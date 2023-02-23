@@ -1191,6 +1191,52 @@ nav {
      /* text-decoration: none; */
  }
 
+ .volunteer-img
+ {
+     width: 80px;
+     height: 80px;
+ }
+
+ /* this is for scrollbar on the comments shown */
+ .comments
+ {
+    overflow-y:scroll;
+    max-height:500px;
+ }
+ .comment-content
+ {
+     display: flex;
+     flex-direction: column;
+     font-weight: 400;
+ }
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* this is the css for recent images  */
+
+ .recent-img
+ {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+ }
+
+ .recent-people
+ {
+    /* border:2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-self: center; */
+ }
+ 
+ .volunteer-name
+ {
+    white-space: nowrap;
+    overflow: hidden;
+ }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 

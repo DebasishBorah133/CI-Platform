@@ -186,8 +186,12 @@
                     <img src="Images/Plantation-and-Afforestation-programme.png" />
                   </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next">
+                    
+                </div>
+                <div class="swiper-button-prev">
+
+                </div>
               </div>
 
           </div>
@@ -311,7 +315,7 @@
 
 
          <!-- this is the second row in the volunteering page where u can find other details-->
-         <section class="mt-5 pt-5">
+         <section class="mt-5 pt-5 row">
 
           <!-- <div class="border-bottom pb-4">
               <span class="ps-4 pe-5 ">Mission</span>
@@ -323,7 +327,7 @@
                
           </div> -->
 
-          <div class="col-8">
+          <div class="col-lg-8 col-md-6">
 
             <!-- <ul class="nav nav-pills pb-0 border-bottom" role="tablist"> -->
             <ul class="nav pb-0 border-bottom" role="tablist">
@@ -350,9 +354,7 @@
                 Expedita consequatur numquam itaque enim odit totam, similique laborum non ut, impedit sapiente reiciendis, repellendus molestiae possimus deserunt veritatis dolor. Corrupti architecto accusamus qui corporis, ipsa quibusdam quis ipsam quaerat.
                 Dignissimos est quidem, incidunt quasi nihil nisi aliquid repellat consequatur laboriosam facilis tenetur earum! Voluptas commodi esse hic, velit laborum tenetur officia, corporis quisquam accusamus suscipit aliquid blanditiis aliquam modi?
                 Minima sit, quod eum omnis quibusdam enim, eligendi eos officiis cum, distinctio placeat eveniet aliquid. Nulla amet porro maxime possimus eius magnam beatae molestiae sequi at. Cum possimus corporis autem.
-                Optio maxime modi at nihil repellendus commodi quo quas corrupti exercitationem, atque adipisci eaque amet provident, nostrum itaque voluptas, voluptatibus quos illo quibusdam placeat vel error nemo? Aut, natus provident!
-                Iusto, adipisci voluptates. Nam tempora quaerat quod est rerum incidunt dicta optio atque sit, amet sed vel architecto sunt quia laudantium, enim officia fugiat ipsam nesciunt aperiam, qui eos. Vitae.
-                Ullam, et temporibus facere autem illum accusamus porro, placeat, enim ducimus at cum rem vitae officiis alias nobis iste recusandae laboriosam explicabo tenetur natus? Consectetur beatae ducimus sunt possimus quos?
+                Optio maxime modi at nihil repellendus commodi quo quas corrupti exercitationem, atque adipisci eaque amet provident, nostrum itaque voluptas.
               </p>
                 
                 <h3>Challege</h3>
@@ -364,15 +366,31 @@
                 Distinctio dolores quidem libero minima laboriosam sit hic. Necessitatibus culpa temporibus laboriosam fugiat sequi, id est blanditiis ullam ipsum at quasi iure. At neque praesentium, ea aliquid quos cupiditate inventore.
                 </p>
                 
-                <h3>Documents</h3>
-                <p class="text-secondary">Doc1</p>
-                <p class="text-secondary">Doc2</p>
-                <p class="text-secondary">Doc3</p>
+                <h3 class="mb-3">Documents</h3>
+                <span class="d-flex">
+
+                  <div class="text-secondary border rounded-pill px-4 me-3 py-2">
+                    <img src="Images/pdf.png" alt="pdf">  
+                    <small class="ms-1"> lorem-ipsum.pdf</small>
+                  </div>
+
+                  <div class="text-secondary border rounded-pill px-4 me-3 py-2">
+                    <img src="Images/doc.png" alt="doc">
+                    <small class="ms-1">at_vero_eos_accusamus.doc</small>
+                  </div>
+
+                  <div class="text-secondary border rounded-pill px-4 me-3 py-2">
+                    <img src="Images/xlsx.png" alt="xlsx">
+                    <small class="ms-1">important_doc.xls</small>
+                  </div>
+
+                </span>
+                
               
               </div>
   
               <div id="menu1" class="container tab-pane fade"><br>
-                <h3>Organization Deatil</h3>
+                <h3>Organization Detail</h3>
                 <p class="text-secondary">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, recusandae. Et nesciunt aperiam fuga corporis error recusandae, eveniet ipsam nam? Neque sapiente repellat ad illum doloribus minima et harum corrupti.
                 Quisquam sed cumque sint vel adipisci aspernatur debitis accusantium rem ex modi quo ea facere aliquid aliquam iste nemo ab fuga quis aut, qui voluptatum necessitatibus! Deleniti, voluptatem? Unde, deserunt.
@@ -381,20 +399,181 @@
               </div>
   
               <div id="menu2" class="container tab-pane fade"><br>
-                <h3>Comments</h3>
-                <p class="text-secondary">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+
+                <div>
+                  <form action="/action_page.php">
+
+                    <textarea class="form-control" id="exampleFormControlTextarea1" name="w3review" rows="4" cols=""  placeholder="Enter Your Comments..."></textarea>
+                    <br>
+                    
+                    <div class="d-flex justify-content-start align-items-center">   
+                      <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill apply">
+                        Post Comment
+                      </button>
+                  </div>
+                  
+                  </form>  
+                </div>
+
+                <!-- below is the comments shown -->
+                <div class="bg-light border p-3 mt-4">
+
+                  <div class="comments">
+
+                    <div class="d-flex  bg-white border p-3 mb-3">
+                      <img src="Images/volunteer1.png" alt="volunteer1" class="rounded-circle volunteer-img">
+                      <span class="ms-4 comment-content">
+                        <span class="">Andrew Johnson</span>
+                        <small class="text-muted">Monday,October 21 , 2019 , 4.15 PM</small>
+                        <p class="mt-2">Nice Mission great Oppourtunity for people</p>
+                      </span>
+                   </div>
+
+                  <div class="d-flex  bg-white border p-3 mb-3">
+                    <img src="Images/volunteer2.png" alt="volunteer1" class="rounded-circle volunteer-img">
+                    <span class="ms-4 comment-content">
+                      <span class="">Charles Vigue</span>
+                      <small class="text-muted">Monday,October 21 , 2019 , 4.15 PM</small>
+                      <p class="mt-2">Great Oppourtunity for people</p>
+                    </span>
+                  </div>
+
+                <div class="d-flex  bg-white border p-3 mb-3">
+                  <img src="Images/volunteer3.png" alt="volunteer1" class="rounded-circle volunteer-img">
+                  <span class="ms-4 comment-content">
+                    <span class="">Katheryn Roberts</span>
+                    <small class="text-muted">Monday,October 21 , 2019 , 4.15 PM</small>
+                    <p class="mt-2">Nice Mission ,Learnt a Lot of things</p>
+                  </span>
+                </div>
+
+              <div class="d-flex  bg-white border p-3 mb-3">
+                <img src="Images/volunteer4.png" alt="volunteer1" class="rounded-circle volunteer-img">
+                <span class="ms-4 comment-content">
+                  <span class="">Estella Fowels</span>
+                  <small class="text-muted">Monday,October 21 , 2019 , 4.15 PM</small>
+                  <p class="mt-2">great Oppourtunity for people to disover their passion</p>
+                </span>
+              </div> 
+              
+
+              </div>
+                  
+            </div>
+              
               </div>
             
             </div>
+            <!-- Tab conent end Above-->
 
           </div>
 
-          <div class="col-4">
+          <div class="col-lg-4 col-md-6">
 
+            <!-- this is for the info and recent volunteers -->
+            <div class="border p-4 mb-5">
+                
+                <div class="pb-0">
+                  <h3 class="text-secondary mb-3">
+                    <span class="border-bottom border-dark mb-0 pb-3 fs-4 text-dark">Information</span> 
+                  </h3>
+                </div>
+
+                
+                <div class="d-flex justify-content-start border-top py-3 mt-0">
+                  <span class="me-5 text-secondary">Skills</span>
+                  <span class="text-secondary">Botany</span>
+                </div>
+                
+                <div class="d-flex justify-content-start border-top py-3">
+                  <span class="me-5 text-secondary">Days</span>
+                  <span class="text-secondary">Daily</span>
+                </div>
+                
+                <div class="d-flex justify-content-start pt-3 border-top">
+                  <span class="me-4 text-secondary">Rating</span>
+                  <div class="ms-2">
+                    <img src="Images/selected-star.png" alt="starr-full">
+                    <img src="Images/selected-star.png" alt="starr-full">
+                    <img src="Images/selected-star.png" alt="starr-full">
+                    <img src="Images/selected-star.png" alt="starr-full">
+                    <img src="Images/star.png" alt="starr-full">
+                    <small class="text-muted">(by 5 volunteers)</small>
+                  </div>
+                </div>
+            </div>
+
+                  
+            <div class="border p-4 ">
+              
+              <div class="pb-0">
+                <h3 class="text-secondary mb-3">
+                  <span class="border-bottom border-dark mb-0 pb-3 fs-4 text-dark">Recent Volunteer</span> 
+                </h3>
+              </div>
+
+              <div class="pt-4 recent-people border-top text-center">
+
+                <div class="row d-flex justify-content-center mb-4">
+                  <span class="col">
+                    <img src="Images/volunteer1.png" alt="volunteer1" class="recent-img">
+                    <small class="text-muted volunteer-name">Andrew Johnson</small>
+                  </span>
+                  <span class="col">
+                    <img src="Images/volunteer2.png" alt="volunteer2" class="recent-img">
+                    <small class="text-muted volunteer-name">Charles Vigue</small>
+                  </span>
+                  <span class="col">
+                    <img src="Images/volunteer3.png" alt="volunteer3" class="recent-img">
+                    <small class="text-muted volunteer-name">Katheryn Roberts</small>
+                  </span>
+                </div>
+
+                <div class="row d-flex justify-content-center mb-4">
+                  <span class="col">
+                    <img src="Images/volunteer4.png" alt="volunteer4" class="recent-img">
+                    <small class="text-muted volunteer-name ">Estella Fowels</small>
+                  </span>
+                  <span class="col">
+                    <img src="Images/volunteer5.png" alt="volunteer5" class="recent-img">
+                    <small class="text-muted volunteer-name ">Rose Lewis</small>
+                  </span>
+                  <span class="col">
+                    <img src="Images/volunteer6.png" alt="volunteer6" class="recent-img">
+                    <small class="text-muted volunteer-name ">Raymond Pabon</small>
+                  </span>
+                </div>
+
+                <div class="row d-flex justify-content-center">
+                  <span class="col">
+                    <img src="Images/volunteer7.png" alt="volunteer7" class="recent-img">
+                    <small class="text-muted volunteer-name ">Travis Steen</small>
+                  </span>
+                  <span class="col">
+                    <img src="Images/volunteer8.png" alt="volunteer8" class="recent-img">
+                    <small class="text-muted volunteer-name ">Sarah Santilian</small>
+                  </span>
+                  <span class="col">
+                    <img src="Images/volunteer9.png" alt="volunteer9" class="recent-img">
+                    <small class="text-muted volunteer-name ">Linda Richards</small>
+                  </span>
+                </div>                            
+              </div>
+
+            </div>
+
+            <div class="border d-flex justify-content-around">
+                
+                <span class="py-2 mx-4"><img src="Images/left.png" alt="left-arrow" ></span>
+                <div class="px-5 border-start border-end py-2">
+                  1-9 of 15 Recent Volunteer
+                </div>
+                <span class="py-2 mx-4"><img src="Images/right-arrow1.png" alt="right-arrow" srcset=""></span>
             
+              </div>
 
           </div>
-
+          
           
 
         </section>
@@ -606,7 +785,7 @@
       </div>
       <div>
           <span class="text-secondary">
-            &copy 2019 Optimity.com. All rights Reserved.
+            &copy 2023 CI-Platform.com. All rights Reserved.
           </span>
       </div>
   </div>
